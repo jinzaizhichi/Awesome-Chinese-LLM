@@ -41,6 +41,7 @@
 | Yi       | Base&Chat                 | 6B/9B/34B       | 3T        | 200k | 可商用 |
 | DeepSeek | Base&Chat                 | 1.3B/7B/33B/67B | -         | 4k | 可商用 |
 | XVERSE   | Base&Chat                 | 7B/13B/65B/A4.2B| 2.6T/3.2T | 8k/16k/256k | 可商用 |
+| MiniMax  | MiniMax-Text-01/VL-01     | 456B(45.9B activated) | -     | 1M/4M  | 可商用 |
 
 ## 目录
 
@@ -295,6 +296,10 @@
   * 地址：https://github.com/RUC-GSAI/YuLan-Mini
     ![](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Mini.svg)
   * 简介：YuLan-Mini 2.4B是一个全开源、可商用、高性能的大模型，拥有 28K 上下文长度，主要擅长数学、代码、中文、英文等，仅使用预训练 1/18 的数据量达到 Qwen2.5-1.5B 相似水平。
+* MiniMax-Text-01
+  * 地址：https://github.com/MiniMax-AI/MiniMax-01
+    ![](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-01.svg)
+  * 简介：MiniMax-Text-01 是由 MiniMax 推出的大规模语言模型，采用混合注意力机制（Lightning Attention + Softmax Attention）与 MoE 架构，总参数量 4560 亿（456B），每个 token 激活参数量 459 亿（45.9B）。该模型在 1M tokens 上下文长度上进行训练，推理时最大可处理 4M tokens（约 800 万汉字），支持超长文本理解和生成。在 MMLU、C-SimpleQA、IFEval、Arena-Hard 等多项学术基准上表现出与 GPT-4o、DeepSeek-V3 等顶级模型相当的性能。代码采用 MIT 许可证开源，模型权重可商用。
 
 
 
@@ -346,6 +351,12 @@
   * 地址：https://github.com/OpenGVLab/InternVL
     ![](https://img.shields.io/github/stars/OpenGVLab/InternVL.svg)
   * 简介：开源多模态大模型，也是国内首个在MMMU（多学科问答）上突破60的模型。数学基准MathVista的测试中、书生·万象的得分为66.3%，显著高于其他闭源商业模型和开源模型。在通用图表基准ChartQA、文档类基准DocVQA、信息图表类基准InfographicVQA中以及通用视觉问答基准MMBench (v1.1)中，书生万象也取得了最先进（SOTA）的表现。
+
+* MiniMax-VL-01
+
+  * 地址：https://github.com/MiniMax-AI/MiniMax-01
+    ![](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-01.svg)
+  * 简介：MiniMax-VL-01 是 MiniMax 推出的多模态视觉语言模型，基于 MiniMax-Text-01 构建，采用 "ViT-MLP-LLM" 架构，结合 3.03 亿参数的 Vision Transformer（ViT）进行视觉编码。支持动态分辨率机制，输入图像分辨率范围从 336×336 到 2016×2016，适用于细粒度图文理解任务。在多模态评测排行榜上取得了领先水平的表现，展现了在复杂多模态任务上的优势。
 
 ### 2. <a name='应用'></a>应用
 
