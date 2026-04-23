@@ -572,6 +572,11 @@
   * 地址：https://modelscope.cn/models/TongyiFinance/Tongyi-Finance-14B
   * 简介：该模型是针对对金融行业推出的大语言模型，基于通义千问基础模型进行行业语料增量学习，强化金融领域知识和场景应用能力，覆盖金融知识问答、文本分类、信息抽取、文本创作、阅读理解、逻辑推理、多模态、Coding等能力象限。具有以下特点：行业语料增量学习：使用200B高质量金融行业语料进行增量学习，并进行金融行业词表扩展，覆盖丰富的数据类型，支持更大上下文（16k）输入和完整的语义表达。行业能力强化：自研SFT质量&多样性分析工具，筛选高质量SFT数据，解决大语言模型的alignment问题。行业后链路优化：借助multi-agent框架，实现知识库增强和工具API调用。
 
+* LLMs Meet Finance：基于Qwen2.5和DeepSeek-R1的金融领域三阶段微调
+
+  * 地址：https://arxiv.org/abs/2504.13125
+  * 简介：对Qwen2.5和DeepSeek-R1基础模型进行金融领域三阶段微调（SFT任务适配→DPO抑制过长输出→LLM自合成CoT数据迭代RL），在Open FinLLM Leaderboard上取得优异成绩。使用LoRA (r=128, α=256) + DeepSpeed Stage 2训练，NER F1从0.14提升至0.72，DPO将overlength ratio从54.7%降至1.7%。
+
 ##### 教育
 
 * 桃李（Taoli）：
