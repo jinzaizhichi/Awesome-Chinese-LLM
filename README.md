@@ -711,6 +711,12 @@
 
 #### 2.3 其他应用
 
+* Lumen：
+
+  * 地址：https://github.com/omxyz/lumen
+    ![](https://img.shields.io/github/stars/omxyz/lumen.svg)
+  * 简介：一个视觉优先的浏览器智能体，支持自修复确定性重放。通过 CDP（Chrome DevTools Protocol）实现截图→模型→操作的循环，支持多模型（Anthropic、Google）。
+
 * wenda：
   
   * 地址：https://github.com/wenda-LLM/wenda
