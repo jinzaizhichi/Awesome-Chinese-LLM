@@ -14,9 +14,9 @@
 <font face="黑体" color=orange size=5"> 收集和梳理中文LLM相关 </font>
 </p>
 <p align="center">
-  <a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM/stargazers"> <img src="https://img.shields.io/github/stars/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub stars"></a>
-  <a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM/issues"> <img src="https://img.shields.io/github/issues/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub issues"></a>
-  <a href="https://github.com/HqWu-HITCS/Awesome-Chinese-LLM/forks"> <img src="https://img.shields.io/github/forks/HqWu-HITCS/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub forks"></a>
+  <a href="https://github.com/AiHubCN/Awesome-Chinese-LLM/stargazers"> <img src="https://img.shields.io/github/stars/AiHubCN/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub stars"></a>
+  <a href="https://github.com/AiHubCN/Awesome-Chinese-LLM/issues"> <img src="https://img.shields.io/github/issues/AiHubCN/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub issues"></a>
+  <a href="https://github.com/AiHubCN/Awesome-Chinese-LLM/forks"> <img src="https://img.shields.io/github/forks/AiHubCN/Awesome-Chinese-LLM.svg?style=popout-square" alt="GitHub forks"></a>
 </p>
 
 自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，由于其惊人的类通用人工智能（AGI）的能力，掀起了新一轮自然语言处理领域的研究和应用的浪潮。尤其是以ChatGLM、LLaMA等平民玩家都能跑起来的较小规模的LLM开源之后，业界涌现了非常多基于LLM的二次微调或应用的案例。本项目旨在收集和梳理中文LLM相关的开源模型、应用、数据集及教程等资料，目前收录的资源已达100+个！
@@ -1308,10 +1308,10 @@
 
 ## Star History
 
-<a href="https://star-history.com/#HqWu-HITCS/Awesome-Chinese-LLM&Date">
+<a href="https://star-history.com/#AiHubCN/Awesome-Chinese-LLM&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=HqWu-HITCS/Awesome-Chinese-LLM&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=HqWu-HITCS/Awesome-Chinese-LLM&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=HqWu-HITCS/Awesome-Chinese-LLM&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=AiHubCN/Awesome-Chinese-LLM&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=AiHubCN/Awesome-Chinese-LLM&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=AiHubCN/Awesome-Chinese-LLM&type=Date" />
   </picture>
 </a>
