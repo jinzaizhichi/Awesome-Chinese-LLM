@@ -1306,6 +1306,12 @@
     ![](https://img.shields.io/github/stars/luban-agi/Awesome-Domain-LLM.svg)
   * 简介：该项目收集和梳理垂直领域的开源模型、数据集及评测基准。
 
+* Awesome AI Startups：
+  
+  * 地址：https://github.com/nowork-studio/awesome-ai-startups
+    ![](https://img.shields.io/github/stars/nowork-studio/awesome-ai-startups.svg)
+  * 简介：独立开发者创建的 AI 创业产品精选列表，涵盖自筹资金、种子轮前和天使轮融资的产品。
+
 ## Star History
 
 <a href="https://star-history.com/#AiHubCN/Awesome-Chinese-LLM&Date">
